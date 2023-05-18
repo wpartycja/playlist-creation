@@ -1,0 +1,125 @@
+Test 1
+Users: [522, 468, 420, 151, 458, 250], duration: 5h 3min
+
+Basic: Correct predictions - 33/79 -> 41.77%
+Basic: Artist indicator: 72/68 -> 1.06
+Basic: Genre indicator: 112/61 -> 1.84
+
+Model: Correct predictions - 42/72 -> 58.33%
+Model: Artist indicator: 82/45 -> 1.82
+Model: Genre indicator: 104/32 -> 3.25
+
+
+Test 2
+Users: [465, 452], duration: 7h 1min
+
+Basic: Correct predictions - 30/109 -> 27.52%
+Basic: Artist indicator: 56/97 -> 0.58
+Basic: Genre indicator: 52/69 -> 0.75
+
+Model: Correct predictions - 60/112 -> 53.57%
+Model: Artist indicator: 60/65 -> 0.92
+Model: Genre indicator: 51/40 -> 1.27
+
+
+Test 3
+Users: [136, 370, 235, 164, 346, 140, 487], duration: 6h 27min
+
+Basic: Correct predictions - 37/97 -> 38.14%
+Basic: Artist indicator: 129/87 -> 1.48
+Basic: Genre indicator: 177/67 -> 2.64
+
+Model: Correct predictions - 55/80 -> 68.75%
+Model: Artist indicator: 127/48 -> 2.65
+Model: Genre indicator: 134/34 -> 3.94
+
+
+Test 4
+Users: [253, 353, 368, 333, 378], duration: 1h 3min
+
+Basic: Correct predictions - 7/17 -> 41.18%
+Basic: Artist indicator: 20/16 -> 1.25
+Basic: Genre indicator: 62/19 -> 3.26
+
+Model: Correct predictions - 11/17 -> 64.71%
+Model: Artist indicator: 28/13 -> 2.15
+Model: Genre indicator: 52/14 -> 3.71
+
+
+Test 5
+Users: [350, 268, 440, 509, 142, 479, 409, 444], duration: 6h 51min
+
+Basic: Correct predictions - 46/114 -> 40.35%
+Basic: Artist indicator: 168/98 -> 1.71
+Basic: Genre indicator: 172/63 -> 2.73
+
+Model: Correct predictions - 74/117 -> 63.25%
+Model: Artist indicator: 180/67 -> 2.69
+Model: Genre indicator: 162/41 -> 3.95
+
+
+Test 6
+Users: [259, 135, 236], duration: 8h 14min
+
+Basic: Correct predictions - 35/131 -> 26.72%
+Basic: Artist indicator: 41/103 -> 0.40
+Basic: Genre indicator: 62/58 -> 1.07
+
+Model: Correct predictions - 38/118 -> 32.20%
+Model: Artist indicator: 43/61 -> 0.70
+Model: Genre indicator: 59/35 -> 1.69
+
+
+Test 7
+Users: [382, 576, 350, 387, 400, 442, 326, 105, 239], duration: 7h 26min
+
+Basic: Correct predictions - 46/116 -> 39.66%
+Basic: Artist indicator: 127/99 -> 1.28
+Basic: Genre indicator: 166/68 -> 2.44
+
+Model: Correct predictions - 55/111 -> 49.55%
+Model: Artist indicator: 142/64 -> 2.22
+Model: Genre indicator: 158/38 -> 4.16
+
+
+Test 8
+Users: [253, 202, 307, 190, 192, 228], duration: 7h 55min
+
+Basic: Correct predictions - 42/119 -> 35.29%
+Basic: Artist indicator: 85/102 -> 0.83
+Basic: Genre indicator: 128/69 -> 1.86
+
+Model: Correct predictions - 63/117 -> 53.85%
+Model: Artist indicator: 97/66 -> 1.47
+Model: Genre indicator: 118/40 -> 2.95
+
+
+Test 9
+Users: [308, 221], duration: 1h 24min
+
+Basic: Correct predictions - 15/26 -> 57.69%
+Basic: Artist indicator: 18/24 -> 0.75
+Basic: Genre indicator: 28/20 -> 1.40
+
+Model: Correct predictions - 17/25 -> 68.00%
+Model: Artist indicator: 27/18 -> 1.50
+Model: Genre indicator: 22/11 -> 2.00
+
+
+Test 10
+Users: [366, 588, 559, 334, 191, 288, 327, 555], duration: 5h 44min
+
+Basic: Correct predictions - 43/87 -> 49.43%
+Basic: Artist indicator: 133/79 -> 1.68
+Basic: Genre indicator: 173/49 -> 3.53
+
+Model: Correct predictions - 56/88 -> 63.64%
+Model: Artist indicator: 150/49 -> 3.06
+Model: Genre indicator: 161/34 -> 4.74
+
+
+Overall
+Basic: Correct predictions - 334/895 -> 37.318436%
+Model: Correct predictions - 471/857 -> 54.959160%
+Basic: Average % correct - 39.78%
+Model: Average % correct - 57.58%
